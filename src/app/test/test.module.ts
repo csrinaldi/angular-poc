@@ -1,14 +1,16 @@
 import {ModuleWithProviders, NgModule} from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {CommonModule} from '@angular/common';
 import {TestAsyncServices} from './test.async.services';
-import {TestResolver} from './test.resolver';
 import {TestComponent} from './test-component/test.component';
+import {TestResolver} from './test.resolver';
 
 @NgModule({
   imports: [
     CommonModule
   ],
-  declarations: [TestComponent]
+  declarations: [
+    TestComponent
+  ]
 })
 export class TestModule {
 
